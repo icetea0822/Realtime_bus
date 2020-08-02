@@ -1,0 +1,28 @@
+GET http://172.0.0.1:5000/forward?number=31&number=31
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://172.0.0.1:5000/forward?number=31
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:5000/forward?number=31
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-04T053100.405.html
+
+###
+
+GET http://localhost:5000/forward?number=31
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-04T053051.405.html
+
+###
+
